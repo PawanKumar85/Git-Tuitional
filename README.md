@@ -115,3 +115,20 @@ git log --online --graph --decorate --all
 `--graph` Adds a graphical representation
 
 ![alt text](image-6.png)
+
+## Rever
+
+1. Revering the single commit
+
+```bash
+    git log
+    git revert <commit hash code>
+    
+    if(revert config occers)
+    {
+       1. resolve the conflict
+        git add <file name>
+        git revert --continue
+    }
+    git push <branch name>
+```
