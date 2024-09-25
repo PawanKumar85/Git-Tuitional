@@ -19,11 +19,15 @@ git config --global user.name "Pawan Kumar"
 git congit --global user.email "pawan630703@gmail.com"
 ```
 
+![alt text](image.png)
+
 ### To sell all the configuration
 
 ```bash
     git config --list
 ```
+
+![git](image-1.png)
 
 ## Basic git Commands
 
@@ -60,3 +64,52 @@ git push    // if you want to push your main branch
 
     git add <filename> // select file with name
 ```
+
+## Viewing Commit History in Detail
+
+1. Basic gitlog command
+
+- This command shows a list of commits in reverse chronological order.
+
+    ```bash
+    git log
+    ```
+
+![alt text](image-2.png)
+
+- Detailed Commit History with git log Options
+
+    Show commit history in one-line summary.
+
+```bash
+git log --oneline
+```
+
+![alt text](image-3.png)
+
+- Show Detailed commit information (made,author,date,commit,message)
+
+```bash
+    git log -stat
+```
+
+![alt text](image-4.png)
+
+- Show commit differences
+    Show the patch(diff) for each commit,displaying the changes moade in each file.
+
+```bash
+git log -p
+```
+
+![alt text](image-5.png)
+
+- Graphical Representation of Branches and Merges
+
+```bash
+git log --online --graph --decorate --all
+```
+
+`--graph` Adds a graphical representation
+
+![alt text](image-6.png)
