@@ -40,6 +40,8 @@ git remote add origin "https://github.com/PawanKumar85/Git-Tuitional.git"
 git push -u origin main
 ```
 
+![alt text](image-7.png)
+
 For first time :
 
 ```bash
