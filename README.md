@@ -130,3 +130,23 @@ git log --online --graph --decorate --all
     }
     git push <branch name>
 ```
+
+## Branching and Merging
+
+- Switch to main branch
+
+```bash
+    git checkout main
+```
+
+- Pull the latest changes from the main branch to ensure your branch is up-to-date
+
+```bash
+git pull origin main
+```
+
+- create and switch to new branch
+
+```bash
+git checkout -b <branch name>
+```
